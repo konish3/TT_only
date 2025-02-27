@@ -1,0 +1,35 @@
+.controls_container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.circle_slider_button {
+  padding: 18px 22px;
+  border: 1px solid #42567a;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.buttons_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.total_points {
+  font-size: 14px;
+  color: #42567a;
+  margin-bottom: 20px;
+}
+.circle_slider_button:disabled {
+  border: 1px solid rgba(66, 86, 122, 0.5);
+}
+
+@media (max-width: 490px) {
+  .circle_slider_button {
+    padding: 7px 11px;
+  }
+  .buttons_container {
+    gap: 8px;
+    margin-top: 10px;
+  }
+}

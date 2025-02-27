@@ -1,0 +1,11 @@
+.dots_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(66, 86, 122, 1);
+}

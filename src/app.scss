@@ -1,0 +1,15 @@
+.wrapper {
+  min-height: 100%;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-left: 1px solid rgba(66, 86, 122, 0.1);
+  border-right: 1px solid rgba(66, 86, 122, 0.1);
+}
+.content {
+  height: 100vh;
+
+  padding: 140px 0 100px 0;
+  position: relative;
+}
